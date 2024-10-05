@@ -8,12 +8,40 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textViewWelcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="@string/welcome_main"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:onClick="onClickGoSecond"
+        android:text="@string/button_main"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewWelcome" />
+
+    <Button
+        android:id="@+id/buttonShortcut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:onClick="onClickGoShortcut"
+        android:text="@string/button_shortcut"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toEndOf="@+id/buttonMain"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="@+id/buttonMain"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMain"
+        tools:ignore="SmallSp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

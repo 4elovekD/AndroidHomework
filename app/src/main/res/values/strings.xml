@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Notes Application</string>
+    <string name="welcome_main">Добро пожаловать!</string>
+    <string name="button_main">Продолжить</string>
+    <string name="text_second">Желаете продолжить?</string>
+    <string name="button_second">Можно тыкнуть</string>
+    <string name="text_third">Это последний, честно</string>
+    <string name="button_third">Тык!</string>
+    <string name="button_shortcut">Краткий путь</string>
+    <string name="button_notes">+</string>
+    <string name="notes_header">Заметки</string>
+    <string name="add">+</string>
 </resources>
