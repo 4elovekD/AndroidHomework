@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notes Application</string>
+    <string name="main_text">Привет мир!</string>
+    <string name="button_text">Кнопка</string>
+</resources>
