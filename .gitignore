@@ -1,16 +1,5 @@
 *.iml
-*.apk
-*.ap_
-*.aab
-*.dex
-*.log
-Thumbs.db
-ehthumbs.db
-bin/
-gen/
-out/
-build/
-/.gradle/
+.gradle
 /local.properties
 /.idea/caches
 /.idea/libraries
@@ -24,5 +13,4 @@ build/
 .externalNativeBuild
 .cxx
 local.properties
-/.idea/
-/gradle/
+.idea
